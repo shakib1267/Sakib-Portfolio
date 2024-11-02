@@ -1,0 +1,171 @@
+body {
+    background-color: rgb(9, 9, 33);
+}
+
+
+/* main section parent design */
+#main-section-parent {
+
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+/*  */
+
+/* main section div child  */
+.div-child {
+    display: flex;
+    font-family: sans-serif;
+    gap: 20px;
+    width: 90%;
+    text-align: justify;
+    margin: 10px;
+    border: 1px solid orange;
+    padding: 7px;
+    border-radius: 7px;
+    opacity: 70%;
+}
+
+/* div child paragrah design */
+
+
+/* font color design div child h1 */
+
+.div-child h1 {
+    color: orange;
+
+}
+
+.div-child p {
+    color: silver;
+}
+
+
+/* main section div child hover */
+.div-child:hover {
+    display: flex;
+    font-family: sans-serif;
+    gap: 20px;
+    width: 90%;
+    text-align: justify;
+    margin: 10px;
+    border: 1px solid red;
+    padding: 7px;
+    border-radius: 10px;
+    opacity: 100%;
+
+}
+
+.div-child img {
+    height: 130px;
+    width: 150px;
+}
+
+/* socound section div child-2nd */
+
+.div-child-2nd {
+
+    display: flex;
+    font-family: sans-serif;
+    gap: 20px;
+    width: 90%;
+    text-align: justify;
+    margin: 10px;
+    border: 1px solid orange;
+    padding: 7px;
+    border-radius: 7px;
+    opacity: 70%;
+
+
+}
+
+/* secound section child divchild-2nd hover */
+.div-child-2nd:hover {
+    display: flex;
+    font-family: sans-serif;
+    gap: 20px;
+    width: 90%;
+    text-align: justify;
+    margin: 10px;
+    border: 1px solid red;
+    padding: 7px;
+    border-radius: 10px;
+    opacity: 100%;
+
+}
+
+.div-child-2nd img {
+    height: 130px;
+    width: 150px;
+}
+
+
+
+/* secound main section design */
+
+#main-section-secound-item {
+    display: flex;
+    padding: 20px;
+}
+
+
+.design-div-main {
+    width: 80%;
+
+    text-align: justify;
+    font-family: sans-serif;
+    border-bottom: 1px solid red;
+    margin: 40px;
+}
+
+#seciund-nain-h1 {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+
+/* button design main */
+.button-design-main {
+    border: none;
+    background-color: rgb(97, 95, 95);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+/* button design hover style  */
+.button-design-main:hover {
+
+    border: none;
+    background-color: rgb(222, 101, 101);
+    border-radius: 7px;
+    padding: 10px;
+    color: rgb(239, 191, 102);
+    box-shadow: 1px 1px 8px 3px orange;
+
+}
+
+/* sestion parent sum */
+#section-parent-sum {
+
+    display: flex;
+    gap: 250px;
+    margin-top: 100px;
+}
+
+/* secound section h2 design */
+.h2-div-design {
+    color: rgb(251, 215, 149);
+}
+
+.h3-div-design {
+    color: aliceblue;
+}
+
+/* paragraph font design */
+.design-div-main p {
+    color: rgb(124, 122, 122);
+}
