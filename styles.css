@@ -141,6 +141,94 @@ nav {
     text-align: justify;
 }
 
+/* .animation-style{
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.animation-style::before{
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 140%;
+    background-image: linear-gradient(to right, red, blueViolet);
+    animation: rotate 4s linear infinite;
+}
+
+.animation-style::after{
+    content: '';
+    position: absolute;
+    background-color: #0c0c2b;
+    inset: 5px;
+    border-radius: 10px;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.button-style{
+    font-size: small;
+    z-index: 2;
+} */
+
+.animation-style{
+    height: 50px;
+    width: 150px;
+    /* border: 1px solid tan; */
+    background-color: #161515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.animation-style::before{
+    content: '';
+    position: absolute;
+    height: 110%;
+    width: 200px;
+    background-image: linear-gradient(to right, red, yellow);
+    animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.animation-style::after{
+    content: '';
+    position: absolute;
+    background-color: #0c0c2b;
+    inset: 3px;
+    border-radius: 5px;
+}
+
+.button-style{
+    font-weight: bold;
+    z-index: 2;
+}
+
 .banner-child-2{
     display: flex;
     flex-direction: column;
@@ -158,7 +246,29 @@ nav {
     width: 50px;
 }
 
+.image-style{
+    border: 2px solid tan;
+    border-radius: 250px;
+    padding: 7px;
+    box-shadow: 1px 1px 5px 5px tan;
+    margin-right: 20px;
+}
 
+.image-style:hover{
+    animation: rotate 0.5s linear ;
+    /* animation-name: rotate;
+    animation-duration: 0.5s;
+    animation-timing-function: linear; */
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
 
 /* banner section end  */
 
