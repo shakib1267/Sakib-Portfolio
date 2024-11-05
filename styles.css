@@ -5,6 +5,30 @@ body {
     font-family: sans-serif;
 }
 
+/* commom part for every section start */
+    .main-section-uper-part{
+        height: 200px;
+        width: 100%;
+        margin: 30px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid tan; */
+    }
+    .main-section-uper-part h2{
+        font-family: sans-serif;
+        font-weight: 900;
+        font-size: 71px;
+        color: #9a9b9c;
+        opacity: 20%;        
+    }
+    .main-section-uper-part img{
+        position: relative;
+        bottom: 120px;
+    }
+/* commom part for every section end */
+
 /* navber start */
 
 /* nav {
@@ -137,7 +161,7 @@ nav {
     margin: 30px 100px;
 }
 
-.banner-child-1 p{
+.banner-child-1 p {
     text-align: justify;
 }
 
@@ -185,7 +209,7 @@ nav {
     z-index: 2;
 } */
 
-.animation-style{
+.animation-style {
     height: 50px;
     width: 150px;
     /* border: 1px solid tan; */
@@ -198,7 +222,7 @@ nav {
     overflow: hidden;
 }
 
-.animation-style::before{
+.animation-style::before {
     content: '';
     position: absolute;
     height: 110%;
@@ -208,15 +232,16 @@ nav {
 }
 
 @keyframes rotate {
-    0%{
+    0% {
         transform: rotate(0deg);
     }
-    100%{
+
+    100% {
         transform: rotate(360deg);
     }
 }
 
-.animation-style::after{
+.animation-style::after {
     content: '';
     position: absolute;
     background-color: #0c0c2b;
@@ -224,12 +249,12 @@ nav {
     border-radius: 5px;
 }
 
-.button-style{
+.button-style {
     font-weight: bold;
     z-index: 2;
 }
 
-.banner-child-2{
+.banner-child-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -241,12 +266,13 @@ nav {
     height: 400px;
     width: 400px;
 }
-.banner-child-2 div img{
+
+.banner-child-2 div img {
     height: 50px;
     width: 50px;
 }
 
-.image-style{
+.image-style {
     border: 2px solid tan;
     border-radius: 250px;
     padding: 7px;
@@ -254,18 +280,19 @@ nav {
     margin-right: 20px;
 }
 
-.image-style:hover{
-    animation: rotate 0.5s linear ;
+.image-style:hover {
+    animation: rotate 0.5s linear;
     /* animation-name: rotate;
     animation-duration: 0.5s;
     animation-timing-function: linear; */
 }
 
 @keyframes rotate {
-    0%{
+    0% {
         transform: rotate(0deg);
     }
-    100%{
+
+    100% {
         transform: rotate(360deg);
     }
 }
@@ -377,7 +404,6 @@ nav {
 
 #main-section-secound-item {
     display: flex;
-    padding: 20px;
 }
 
 
