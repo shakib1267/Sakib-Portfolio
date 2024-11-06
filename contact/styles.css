@@ -1,0 +1,125 @@
+
+ body{
+    margin: 0;
+    padding: 0;
+    background-color: #0c0c2b;
+    font-family: sans-serif;
+ }
+/* nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-child-1 a img {
+    height: 30px;
+    width: 80px;
+}
+
+.nav-child-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-child-2 h4 a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 900;
+    position: relative;
+}
+.nav-child-2 h4 a:hover{
+    zoom: 110%;
+}
+.nav-child-2 h4 a::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color: red;
+    left: 0;
+    bottom: -5px;
+}
+
+.nav-child-2 h4 a:hover::before{
+    width: 100%;
+    transition: 0.5s;
+    zoom: 120%;
+}
+
+.nav-child-2 button a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.nav-child-2 button {
+    border: 1px solid #0606be;
+    border-radius: 8px;
+    padding: 10px 15px;
+    background-color: #0c0c2b;
+}
+.nav-child-2 button:hover {
+    box-shadow: 1px 1px 3px 5px #0606be;
+} */
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-child-1 a img {
+    height: 50px;
+    width: 100px;
+}
+
+.nav-child-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-child-2 h4 a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 800;
+    position: relative;
+}
+
+.nav-child-2 h4 a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 3px;
+    width: 0;
+    background-image: linear-gradient(to right, red, blueViolet);
+    transition: 0.5s;
+}
+
+.nav-child-2 h4 a:hover::after {
+    width: 100%;
+}
+
+.nav-child-2 button a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.nav-child-2 button {
+    border: 1px solid #0606be;
+    border-radius: 8px;
+    padding: 10px 15px;
+    background-color: #0c0c2b;
+}
+
+.nav-child-2 button:hover {
+    box-shadow: 1px 1px 3px 5px #0606be;
+}
+
+/* navber end */

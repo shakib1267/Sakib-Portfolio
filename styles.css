@@ -95,6 +95,8 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: sticky;
+    top: 0px;
 }
 
 .nav-child-1 a img {
@@ -252,6 +254,7 @@ nav {
 .button-style {
     font-weight: bold;
     z-index: 2;
+    color: aliceblue;
 }
 
 .banner-child-2 {
@@ -465,6 +468,87 @@ nav {
 .design-div-main p {
     color: rgb(124, 122, 122);
 }
+
+/* form design stert  */
+
+#section-form{
+    display: flex;
+    gap: 300px;
+    margin: 30px 10%;
+
+}
+#section-form div img{
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.form-design{
+    color: orange;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 10px;
+}
+.input-design{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+  color: #87888a;
+
+}
+
+/* fotter section stert */
+
+#footer-section{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    border: none;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+   
+    
+   
+}
+.office-div{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #9c9ea1;
+   
+}
+.link-desing{
+    text-decoration: none;
+    color: #9c9ea1;
+}
+.common-part-footer{
+    color: orange;
+    font-weight: bold;
+    font-size: x-large;
+}
+.image-disign-footer{
+    height: 40px;
+    width: 40px;
+}
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+}
+/* fotter section end */
+
+
+
 
 
 
