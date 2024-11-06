@@ -506,10 +506,11 @@ nav {
     height: 300px;
     width: 100%;
     border: none;
-    background-color: antiquewhite;
+    background-color: rgb(102, 110, 95);
     justify-content: center;
     align-items: center;
     gap: 15%;
+    margin-top: 70px;
    
     
    
