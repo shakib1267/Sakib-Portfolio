@@ -325,7 +325,7 @@ nav {
     border: 1px solid orange;
     padding: 7px;
     border-radius: 7px;
-    opacity: 70%;
+    opacity: 30%;
 }
 
 /* div child paragrah design */
@@ -376,7 +376,7 @@ nav {
     border: 1px solid orange;
     padding: 7px;
     border-radius: 7px;
-    opacity: 70%;
+    opacity: 30%;
 
 
 }
@@ -547,6 +547,54 @@ nav {
     width: 300px;
 }
 /* fotter section end */
+
+/* 
+client review section design stert */
+.same-design-p{
+    border: 2px solid rgb(238, 10, 10);
+    height: 150px;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 40px;
+    
+}
+
+.img-design-last-1{
+    
+ position: relative;
+ left: 200px;
+ height: 100px;
+ width: 100px;
+ border: 1px solid orange;
+ padding: 5px;
+ border-radius: 60px ;
+}
+.img-design-last-2{
+    
+ position: relative;
+ left: 570px;
+ height: 100px;
+ width: 100px;
+ border: 1px solid orange;
+ padding: 5px;
+ border-radius: 60px ;
+}
+.img-design-last-3{
+    
+ position: relative;
+ left: 970px;
+ height: 100px;
+ width: 100px;
+ border: 1px solid orange;
+ padding: 5px;
+ border-radius: 60px ;
+}
+/* 
+client review section design finifhed */
 
 
 
