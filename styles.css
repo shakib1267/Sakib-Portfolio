@@ -6,27 +6,30 @@ body {
 }
 
 /* commom part for every section start */
-    .main-section-uper-part{
-        height: 200px;
-        width: 100%;
-        margin: 30px 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        /* border: 1px solid tan; */
-    }
-    .main-section-uper-part h2{
-        font-family: sans-serif;
-        font-weight: 900;
-        font-size: 71px;
-        color: #9a9b9c;
-        opacity: 20%;        
-    }
-    .main-section-uper-part img{
-        position: relative;
-        bottom: 120px;
-    }
+.main-section-uper-part {
+    height: 200px;
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid tan; */
+}
+
+.main-section-uper-part h2 {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 71px;
+    color: #9a9b9c;
+    opacity: 20%;
+}
+
+.main-section-uper-part img {
+    position: relative;
+    bottom: 120px;
+}
+
 /* commom part for every section end */
 
 /* navber start */
@@ -167,6 +170,70 @@ nav {
     text-align: justify;
 }
 
+/* type animation Start */
+
+.type-animation {
+    display: flex;
+    justify-content: left;
+    align-items: first baseline;
+}
+
+.type-animation ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: orange;
+    font-size: x-large;
+    height: 35px;
+    overflow: hidden;
+}
+
+.type-animation li {
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+    top: 0;
+    animation: uper-style 6s steps(3) infinite;
+}
+
+@keyframes uper-style {
+    100% {
+        top: -105px;
+    }
+}
+
+.type-animation ul li span {
+    position: relative;
+}
+
+.type-animation ul li span::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid tan;
+    background-color: #0c0c2b;
+    animation: type-style 2s steps(14) infinite;
+}
+
+@keyframes type-style {
+    100% {
+        left: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+/* type animation end */
+
 /* .animation-style{
     height: 50px;
     width: 150px;
@@ -271,8 +338,8 @@ nav {
 }
 
 .banner-child-2 div img {
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
 }
 
 .image-style {
@@ -471,37 +538,39 @@ nav {
 
 /* form design stert  */
 
-#section-form{
+#section-form {
     display: flex;
     gap: 300px;
     margin: 30px 10%;
 
 }
-#section-form div img{
+
+#section-form div img {
     height: 400px;
     width: 500px;
     border-radius: 10px;
 }
 
-.form-design{
+.form-design {
     color: orange;
     font-size: x-large;
     font-weight: bold;
     margin: 10px;
 }
-.input-design{
+
+.input-design {
     border: 2px solid red;
     border-radius: 10px;
     width: 300px;
     padding: 10px;
     margin: 10px;
-  color: #87888a;
+    color: #87888a;
 
 }
 
 /* fotter section stert */
 
-#footer-section{
+#footer-section {
     display: flex;
     height: 300px;
     width: 100%;
@@ -511,11 +580,12 @@ nav {
     align-items: center;
     gap: 15%;
     margin-top: 70px;
-   
-    
-   
+
+
+
 }
-.office-div{
+
+.office-div {
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -523,22 +593,26 @@ nav {
     align-items: center;
     text-align: center;
     color: #9c9ea1;
-   
+
 }
-.link-desing{
+
+.link-desing {
     text-decoration: none;
     color: #9c9ea1;
 }
-.common-part-footer{
+
+.common-part-footer {
     color: orange;
     font-weight: bold;
     font-size: x-large;
 }
-.image-disign-footer{
+
+.image-disign-footer {
     height: 40px;
     width: 40px;
 }
-.footer-div{
+
+.footer-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -546,11 +620,12 @@ nav {
     text-align: center;
     width: 300px;
 }
+
 /* fotter section end */
 
 /* 
 client review section design stert */
-.same-design-p{
+.same-design-p {
     border: 2px solid rgb(238, 10, 10);
     height: 150px;
     width: 35%;
@@ -560,39 +635,42 @@ client review section design stert */
     text-align: center;
     padding: 25px;
     margin-bottom: 40px;
-    
+
 }
 
-.img-design-last-1{
-    
- position: relative;
- left: 200px;
- height: 100px;
- width: 100px;
- border: 1px solid orange;
- padding: 5px;
- border-radius: 60px ;
+.img-design-last-1 {
+
+    position: relative;
+    left: 200px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid orange;
+    padding: 5px;
+    border-radius: 60px;
 }
-.img-design-last-2{
-    
- position: relative;
- left: 570px;
- height: 100px;
- width: 100px;
- border: 1px solid orange;
- padding: 5px;
- border-radius: 60px ;
+
+.img-design-last-2 {
+
+    position: relative;
+    left: 570px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid orange;
+    padding: 5px;
+    border-radius: 60px;
 }
-.img-design-last-3{
-    
- position: relative;
- left: 970px;
- height: 100px;
- width: 100px;
- border: 1px solid orange;
- padding: 5px;
- border-radius: 60px ;
+
+.img-design-last-3 {
+
+    position: relative;
+    left: 970px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid orange;
+    padding: 5px;
+    border-radius: 60px;
 }
+
 /* 
 client review section design finifhed */
 
